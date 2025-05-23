@@ -82,7 +82,8 @@ For each question, the following models rank all passages by similarity:
 
 - `Sentence-BERT (all-MiniLM-L6-v2)`
 - `Sentence-BERT (all-mpnet-base-v2)`
-- `SPADE` (two variants)
+- `SPADE` (all-MiniLM-L6-v2)
+- `SPADE` (all-mpnet-base-v2)
 - `BM25`
 
 Each produces a ranked list of passages per city.
@@ -103,30 +104,6 @@ Printed to the console:
 
 - Ranked results for each model.
 - Evaluation of semantic rankings.
-- Graph-based related question expansion.
+
 
 ---
-
-## 🔁 Re-running the Experiment
-
-You can rerun the entire experiment at any time by executing:
-
-```bash
-python3 main.py
-```
-
-Make sure Python 3 and required libraries are installed.
-
----
-
-## ✍️ Future Improvements
-
-- Implement directional relation handling.
-- Add GUI or web interface for exploration.
-- Extend dataset with more cities or historical sources.
-
----
-
-## 📌 Author Notes
-
-This project is structured for easy experimentation and extension. Feel free to modify the models or graph logic to fit new research or application needs.
