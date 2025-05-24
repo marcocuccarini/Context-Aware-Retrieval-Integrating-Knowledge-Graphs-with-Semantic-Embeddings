@@ -32,7 +32,7 @@ def analyze_graph_from_file(file_path):
     print("-" * 50)
 
 # 📝 List your JSON file paths here
-json_files = ['KG_Ps_Florence.json', 'KG_Ps_Venice.json', 'KG_Ps_Rome.json']  # <-- Add your file names here
+json_files = ['Florence_Ps_KG.json', 'Venice_Ps_KG.json', 'Rome_Ps_KG.json']  # <-- Add your file names here
 
 
 # 🔍 Run analysis for each file

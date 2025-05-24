@@ -9,10 +9,12 @@ This project performs semantic ranking and exploration over a knowledge graph of
 ```
 ├── main.py                 # Main script to run the experiment
 ├── requirements.txt        # Required Python libraries
-├── KG/                     # Knowledge graphs for each city
+├── KG/                     # Knowledge graphs of passages for each city
+├── KG_entities/            # Knowledge graphs of entities extarcted form the text for each city, 
 ├── dataset/                # Questions and corresponding passages
 ├── Classes/                # Core class definitions
 ├── results/                # Output from semantic and graph-based ranking
+
 ```
 
 ---

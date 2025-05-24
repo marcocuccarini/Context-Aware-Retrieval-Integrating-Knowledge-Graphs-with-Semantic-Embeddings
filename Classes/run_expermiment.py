@@ -123,8 +123,10 @@ def evaluate_and_save(city, model_name, results, correct_ranks, explorer, arc_co
     output_data.append(["Nodes", "N/A", metrics_all, metrics_filtered, excluded])
 
     # ---- Multi-Level Evaluation ----
-    top_k_values = [1, 3, 5, 10, 20, 50]
-    n_levels = 7
+    
+
+    top_k_values = [1, 3, 5, 10, 20, 50]      #numero di head da testare
+    n_levels = 7                              #massimo numero di livelli
 
     for top_k in top_k_values:
         candidates_by_level = explorer.extract_candidates(
