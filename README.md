@@ -10,7 +10,8 @@ This project performs semantic ranking and exploration over a knowledge graph of
 ├── main.py                 # Main script to run the experiment
 ├── requirements.txt        # Required Python libraries
 ├── KG/                     # Knowledge graphs of passages for each city
-├── KG_entities/            # Knowledge graphs of entities extarcted form the text for each city, 
+├── KG_entities/            # Knowledge graphs of entities extracted form the text for each city.
+                            In combiantion with the dataset of passages can be used for the KG of Passages construction.  
 ├── dataset/                # Questions and corresponding passages
 ├── Classes/                # Core class definitions
 ├── results/                # Output from semantic and graph-based ranking
