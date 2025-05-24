@@ -107,5 +107,7 @@ Printed to the console:
 - Ranked results for each model.
 - Evaluation of semantic rankings.
 
+  - Note that in the evaluation file output the level is counted from 0 to k-1; in the paper it is from 1 to k.
+
 
 ---
